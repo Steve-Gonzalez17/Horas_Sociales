@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button-start {
+    transition: transform 0.5s ease;
+}
+
+.button-start:hover {
+    transform: scale(1.1);
+}
+
+.img-icon-container img {
+    width: 50%;
+    margin: 50px;
+}
+
+/* hora */
+.container {
+    display: flex; /* Utiliza Flexbox para alinear elementos horizontalmente */
+    justify-content: space-between; /* Espacia elementos entre el inicio y el final del contenedor */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px; /* Espaciado interno del contenedor */
+}
+
+.left-text {
+    font-size: 1rem; /* Ajusta el tamaño del texto a la izquierda */
+    color: #ffffff; /* Color del texto */
+}
+
+.clock {
+    display: flex; /* Utiliza Flexbox para alinear elementos dentro del reloj */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-left: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 0px 10px; /* Espaciado alrededor del reloj */
+    border-radius: 15px;
+    text-shadow: 0px 0px 10px rgba(50, 205, 50, 0.75); /* Efecto de brillo digital */
+}
+
+.clock span {
+    display: inline-block;
+    min-width: 25px; /* Asegura que los dígitos tengan un ancho consistente */
+    text-align: center;
+}
+
+#ampm {
+    font-size: 0.8rem;
+    margin-left: 5px; /* Ajusta el margen a la izquierda */
+    text-shadow: none;
+}
+
+#ampm2 {
+    font-size: 0.8rem;
+    margin-left: 5px; /* Ajusta el margen a la izquierda */
+    text-shadow: none;
+}
